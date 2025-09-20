@@ -1,0 +1,24 @@
+{
+  "name": "joking-terminal",
+  "version": "1.0.2",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cli",
+    "jokes",
+    "fun"
+  ],
+  "author": "k10_here",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "commander": "^14.0.1",
+    "node-fetch": "^3.3.2"
+  },
+  "bin": {
+    "joke": "./index.js"
+  }
+}
